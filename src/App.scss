@@ -1,0 +1,65 @@
+.App {
+    max-width: 1680px;
+    height: 52vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    &-Container {
+        width: 30%;
+        height: 60%;
+
+        form {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+            input {
+                border-radius: 2px;
+                border: none;
+                cursor: pointer;
+            }
+
+            
+
+            .inp-text {
+                width: 98%;
+                height: 2.5vw;
+                margin-top: 10px;
+                outline: none;
+                background-color: #e5e5e5;
+            }
+
+            .inp-submit {
+                height: 3vw;
+                font-size: 1vw;
+                color: #fff;
+                text-transform: capitalize;
+                background-color: purple;
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.9vw;
+                color: rgb(231, 33, 33)
+            }
+        }
+
+        &-valid {
+            width: 100%;
+            margin-bottom: 18px;
+            border: 2px solid red;
+
+            label {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
